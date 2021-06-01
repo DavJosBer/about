@@ -12,8 +12,8 @@ export const Welcome = (props) => {
                                 <p className="welcome-header-p-text lead">Yo soy David Bermúdez progrmador web.</p>
                             </div>
                         </header>
-                        <nav className="welcome-nav">
-                            <div className="welcome-nav-container">
+                        <nav className="welcome-nav" id="welcome-nav">
+                            <div className="welcome-nav-container" id="welcome-nav-container">
                                 <NavLink to="/home" className="button button-light" tabIndex="0">{props.home}</NavLink>
                                 <NavLink to="/about-david" className="button button-light" tabIndex="0">{props.about}</NavLink>
                             </div>

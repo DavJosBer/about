@@ -37,6 +37,7 @@ code{
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
         padding-top: 5rem;
         &-container a{
             color: $light-color;
@@ -110,6 +111,7 @@ code{
         }
         &-input{
             width: 100%;
+            font-size: 1.2rem;
             display: block;
             padding: 0.3rem 0.5rem;
         }

@@ -61,7 +61,12 @@
   #grid {
     display: block; }
   .main-container-graph {
-    margin: 1rem 0; } }
+    margin: 1rem 0; }
+  #welcome-nav {
+    display: block; }
+  #welcome-nav-container a {
+    border: none;
+    text-align: center; } }
 
 * {
   margin: 0;
@@ -97,6 +102,7 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding-top: 5rem; }
   .welcome-nav-container a {
     color: #dde5e7;
@@ -155,6 +161,7 @@ code {
 
 .search-form-input {
   width: 100%;
+  font-size: 1.2rem;
   display: block;
   padding: 0.3rem 0.5rem; }
 

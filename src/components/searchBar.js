@@ -12,7 +12,7 @@ export class SearchBar extends React.Component{
                     }}>
                         <label className="search-form-label" htmlFor="search">Unsplash Search</label>
                         <p>Busca imagenes por título</p>
-                        <input type="text" className="search-form-input" id="search" value={this.state.term} onChange={e => 
+                        <input placeholder="Buscar..." type="text" className="search-form-input" id="search" value={this.state.term} onChange={e => 
                         this.setState(
                             {term: e.target.value}
                         )}/>
